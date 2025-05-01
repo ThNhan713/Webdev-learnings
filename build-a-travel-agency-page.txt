@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Travel Agency Page</title>
+  <meta name="description" content="The travel agency for your perfect trip in VietNam!">
+</head>
+<body>
+  <h1>Explore Our Travel Destinations</h1>
+  <p>Discover unforgettable adventures and tailor-made experiences across VietNam. Whether you're looking for group excursions or private getaways, we've got you covered.</p>
+  <h2>Packages</h2>
+  <p>Choose from our specially crafted packages to suit every taste and budget:</p>
+  <ul>
+    <li>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        Group Travels
+      </a>
+    </li>
+    <li>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        Private Tours
+      </a>
+    </li>
+  </ul>
+  <h2>Top Itineraries</h2>
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Ha_Long_Bay_in_2019.jpg" alt = "A sky view of Ha Long Bay">
+    </a>
+    <figcaption>Ha Long Bay</figcaption>
+  </figure>
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Hoi_An_%28I%29.jpg/1920px-Hoi_An_%28I%29.jpg" alt="view of the old town from a boat">
+    </a>
+    <figcaption>A view of the old town</figcaption>
+  </figure>
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ho_Chi_Minh_City_Skyline.jpg/1920px-Ho_Chi_Minh_City_Skyline.jpg" alt="A view of the cosmopolitan city">
+    </a>
+    <figcaption>Ho Chi Minh City</figcaption>
+  </figure>
+</body>
+</html>
