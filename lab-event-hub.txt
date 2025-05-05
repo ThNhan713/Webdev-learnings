@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+  <header>
+      <h1>Event Hub</h1>
+      <nav>
+          <ul>
+              <li><a href="#upcoming-events">Upcoming Events</a></li>
+              <li><a href="#past-events">Past Events</a></li>
+          </ul>
+      </nav>
+  </header>
+  <main>
+      <section id="upcoming-events">
+          <h2>Upcoming Events</h2>
+          <article>
+              <h3>Gaming tournament #2</h3>
+              <p>Our annual competetion to find the best Inscryption player will be held at [Redacted] at <time datetime = "2025-08-22T15:00">15:00, 22/8/2025.</time></p>
+          </article>
+          <article>
+              <h3>Webdev learning meetup #2</h3>
+              <p>A learning event including free lectures, workshops and projects showcase at <time datetime = "2025-08-11T14:00">14:00, 11/8/2025.</time></p>
+          </article>
+      </section>
+      <section id="past-events">
+          <h2>Past Events</h2>
+          <article>
+              <h3>Gaming tournament #1</h3>
+              <p>Our very first annual gaming event where we find the best Inscryption player will be held at <time datetime = "2024-08-12T15:00">15:00, 12/8/2024.</time></p>
+              <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="An old computer with a program running">
+          </article>
+          <article>
+              <h3>Webdev learning meetup #1</h3>
+              <p>The first webdev learning event including free lectures, workshops and projects showcase at <time datetime = "2024-08-10T11:00">11:00, 10/8/2024.</time></p>
+              <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="Abstract image of cubes and links of tech">
+          </article>
+      </section>
+  </main>
+</body>
+
+</html>
