@@ -1,0 +1,49 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">University Facilites Survey form</h1>
+    <p id="description">This form collect students',instructors' and admins' opinion on the university's opperation</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input id="name" type="text" placeholder="Full name" required>
+      <label for="email" id="email-label">Email:</label>
+      <input id="email" type="email" placeholder="aasd@gmail.com" required>
+      <label for="number" id="number-label">satisfaction:</label>
+      <input id="number" type="number" min="1" max="10" placeholder="1 to 10">
+      <label for="dropdown">What is your position?</label>
+      <select id="dropdown" name="position">
+        <option value="1st-year">First year student</option>
+        <option value="2nd-year">Second year student</option>
+        <option value="3rd-year">Third year student</option>
+        <option value="4th-year">Forth year student</option>
+        <option value="5th+-year">Fifth+ year student</option>
+        <option value="instructor">Instructor</option>
+        <option value="admin">Administrator</option>
+      </select>
+      <p>How often do you eat at the cafeteria?</p>
+      <label><input type="radio" value="often" name="cafeteria">Often</label>
+      <label><input type="radio" value="sometimes" name="cafeteria">Sometimes</label>
+      <label><input type="radio" value="rarely" name="cafeteria">Rarely</label>
+      <label><input type="radio" value="never" name="cafeteria">Never</label>
+      <p>What needs to be improved the most?</p>
+      <label><input type="checkbox" value="WC" name="improvement">WC</label>
+      <label><input type="checkbox" value="desks" name="improvement">Rooms desks</label>
+      <label><input type="checkbox" value="Greeneries" name="improvement"> greeneries</label>
+      <label><input type="checkbox" value="AC" name="improvement">Air conditioning</label>
+      <label><input type="checkbox" value="lab" name="improvement">Lab equipments</label>
+      <label for="comments">Additional comments:</label>
+      <textarea id="comments" name="comments" cols="25" rows="4" placeholder="write your comments here!"></textarea>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
