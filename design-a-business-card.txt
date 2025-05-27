@@ -1,0 +1,68 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="business-card">
+      <img class="profile-image" src="https://scontent-hkg4-2.xx.fbcdn.net/v/t39.30808-6/394887755_1552300695514823_8292164602506087559_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mTqLWc34nJ8Q7kNvwG0ixZO&_nc_oc=AdlPmT5FfvNtOyh6Jlq1CEuNGPp6YuoODxnEbTm2D8d9uNNAds9HYXdJC9xqvctXY6cgO-3B0rdYfbYWluEoAqiw&_nc_zt=23&_nc_ht=scontent-hkg4-2.xx&_nc_gid=JvgxsemR9CHnvm1mEtqO6A&oh=00_AfKt8I5llL6DhThH_ju3PrqIb2S8eDCCCT9vz4K4IUM3QQ&oe=683A1287" alt="A green spider with a turtle shell for its rear">
+      <p class="full-name">Hansa Gloken</p>
+      <p class="designation">Scourge of earth </p>
+      <p class="company">General of the New Empire</p>
+      <hr>
+      <p>meowy@lolmail.com</p>
+      <p>888-55-33888</p>
+      <a href="https://github.com/ThNhan713/Webdev-learnings">Portfolio</a>
+      <hr>
+      <div class="social-media">
+          <h2>Connect with me</h2>
+          <a href="https://example.com">Twitter</a>
+          <a href=href="https://example.com">LinkedIn</a>
+          <a href="https://github.com/ThNhan713">GitHub</a>
+      </div>
+  </div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.business-card {
+  width: 300px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffb833;
+}
+
+.profile-image{
+  max-width: 100%;
+}
+
+** end of styles.css **
+
