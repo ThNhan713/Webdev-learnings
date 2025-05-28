@@ -1,0 +1,88 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <h1>Todo List</h1>
+   <ul class="todo-list">
+       <li>
+           <input type="checkbox" id="study-for-class">
+           <label for="study-for-class"> Study for class</label>
+           <ul class="sub-item">
+               <li>
+                   <a href="https//example.com" class="sub-item-link" target="_blank">Classroom</a>
+               </li>
+               <li>Do my part in group homework</li>
+               <li>Make progress on the big essay</li>
+               <li>Calculus 2</li>
+           </ul>
+       </li>
+       <li>
+           <input type="checkbox" id="exercise">
+           <label for="exercise">Exercise</label>
+           <ul class="sub-item">
+               <li>
+                   <a href="https//example.com" class="sub-item-link" target="_blank">video reference</a>
+               </li>
+               <li>Jumping jacks</li>
+               <li>Rope skip</li>
+               <li>dumbbell curls</li>
+           </ul>
+       </li>
+       <li>
+           <input type="checkbox" id="freecodecamp">
+           <label for="freecodecamp">Freecodecamp</label>
+           <ul class="sub-item">
+               <li>
+                   <a href="https//example.com" class="sub-item-link" target="_blank">Full stack developer track</a>
+               </li>
+           </ul>
+       </li>
+       <li>
+           <input type="checkbox" id="sleep">
+           <label for="sleep">Sleep well</label>
+           <ul class="sub-item">
+               <li>
+                   <a href="https//example.com" class="sub-item-link" target="_blank">ASMR</a>
+               </li>
+           </ul>
+       </li>
+   </ul>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+a:visited {
+  color: lime;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:focus {
+  outline: 2px solid aqua;
+}
+
+a:active{
+  color: navy;
+}
+
+** end of styles.css **
+
