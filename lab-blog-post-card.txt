@@ -1,0 +1,67 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="blog-post-card">
+      <img src="https://imgs.search.brave.com/6tp3b9ZsQME6VIDn2qOb9zi-yPSCr8QkNoxej-g-d3g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE2/NTA1MjAyNi9waG90/by93b21hbi11c2lu/Zy1tb2JpbGUtc21h/cnQtcGhvbmUtaW4t/dGhlLW5pZ2h0LWxp/Z2h0LWNvbG9yZnVs/LWJhY2tncm91bmQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWxZWnM3TFhRQ3c5/eFl4d2tKMU5NVXEy/a21XQ3lFYW41S3NC/WS1ablR4X0E9" alt="view of a phone with background of busy city" class="post-img">
+      <div class="post-content">
+      <h2 class="post-title">Evolution of mobile devices</h2>
+      <p class="post-excerpt">The vision of a pocket computer has been around for long time. It was realized for the public about 20 or so years a go. Let's dive into how the device that most of us can't live without now came to be!</p>
+      <a class="read-more">Read More</a>
+  </div>
+  </div>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.blog-post-card{
+  background-color: white;
+  border-radius: 10px;
+  width: 650px;
+  text-align: left;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid limegreen; 
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.post-title {
+  color: navy;
+  margin: 10px;
+}
+
+.post-excerpt {
+  color: midnightblue;
+}
+
+.read-more {
+  color: maroon;
+  background-color: gold;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.read-more:hover {
+  background-color: green;
+}
+
+** end of styles.css **
+
